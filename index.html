@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anshu Sharma | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{background:#0f0f0f;color:#fff;overflow-x:hidden}
+nav{display:flex;justify-content:space-between;align-items:center;padding:20px 8%;position:fixed;top:0;width:100%;background:rgba(15,15,15,0.9);backdrop-filter:blur(10px);z-index:100}
+.logo{font-size:22px;font-weight:700;color:#a855f7}
+nav ul{display:flex;list-style:none;gap:25px}
+nav ul a{color:#ccc;text-decoration:none;transition:0.3s}
+nav ul a:hover{color:#a855f7}
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:0 8%;padding-top:80px}
+.hero h2{font-size:20px;color:#a855f7;letter-spacing:3px;margin-bottom:10px}
+.hero h1{font-size:52px;font-weight:700;line-height:1.2}
+.gradient-text{background:linear-gradient(90deg,#a855f7,#ec4899,#f59e0b);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.hero p{max-width:600px;margin:20px 0;color:#aaa;font-size:18px}
+.btn{padding:12px 28px;background:linear-gradient(90deg,#a855f7,#ec4899);border:none;border-radius:30px;color:#fff;font-weight:600;cursor:pointer;text-decoration:none;display:inline-block;margin-top:10px;transition:0.3s}
+.btn:hover{transform:scale(1.05);box-shadow:0 0 20px rgba(168,85,247,0.5)}
+section{padding:80px 8%}
+.section-title{font-size:36px;text-align:center;margin-bottom:50px}
+.about-box{background:#1a1a1a;padding:40px;border-radius:20px;border:1px solid #2a2a2a;text-align:center;max-width:800px;margin:auto}
+.about-box p{color:#ccc;line-height:1.8;font-size:17px}
+.skills-wrap{display:flex;flex-wrap:wrap;justify-content:center;gap:12px;max-width:700px;margin:30px auto 0}
+.skill{background:#1a1a1a;border:1px solid #2a2a2a;padding:8px 18px;border-radius:25px;color:#ddd;font-size:14px;transition:0.3s}
+.skill:hover{border-color:#a855f7;color:#a855f7;transform:translateY(-2px)}
+.projects{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:25px}
+.card{background:#1a1a1a;border:1px solid #2a2a2a;border-radius:20px;padding:25px;transition:0.4s}
+.card:hover{transform:translateY(-10px);border-color:#a855f7;box-shadow:0 10px 30px rgba(168,85,247,0.2)}
+.card h3{font-size:20px;margin-bottom:10px;color:#fff}
+.card p{color:#aaa;font-size:14px;margin-bottom:15px;line-height:1.6}
+.tags span{display:inline-block;background:#2a2a2a;color:#a855f7;padding:5px 10px;border-radius:20px;font-size:12px;margin:3px}
+.links{margin-top:15px}
+.links a{color:#a855f7;text-decoration:none;font-size:14px;margin-right:15px;font-weight:600}
+.contact{text-align:center;background:#1a1a1a;border-radius:20px;margin:0 8% 50px 8%;padding:50px}
+footer{text-align:center;padding:20px;color:#666;font-size:14px}
+@media(max-width:768px){.hero h1{font-size:36px}nav ul{display:none}}
+</style>
+</head>
+<body>
+<nav>
+<div class="logo">Anshu.dev</div>
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<div class="hero" id="home">
+<h2>HELLO, I AM</h2>
+<h1><span class="gradient-text">Anshu Sharma</span></h1>
+<p>BCA Student passionate about Full Stack Web Development.</p>
+<a href="#projects" class="btn">View My Work</a>
+</div>
+
+<section id="about">
+<h2 class="section-title">👩‍💻 About Me</h2>
+<div class="about-box" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #1a1a2a 100%); border: 1px solid #a855f7; box-shadow: 0 0 30px rgba(168,85,247,0.15); padding:40px; border-radius:20px; text-align:center; max-width:800px; margin:auto;">
+<p style="color:#ccc; line-height:1.8; font-size:17px;">I am Anshu Sharma, a BCA student passionate about building modern and user-friendly web applications. I love learning new technologies and turning ideas into real projects. Currently focused on Full Stack Development and exploring the world of coding.</p>
+<div class="skills-wrap" style="display:flex; flex-wrap:wrap; justify-content:center; gap:12px; max-width:700px; margin:30px auto 0;">
+<div class="skill" style="background:#0f0f0f; border:1px solid #2a2a2a; padding:8px 18px; border-radius:25px; color:#ddd; font-size:14px;">🌐 HTML</div>
+<div class="skill" style="background:#0f0f0f; border:1px solid #2a2a2a; padding:8px 18px; border-radius:25px; color:#ddd; font-size:14px;">🎨 CSS</div>
+<div class="skill" style="background:#0f0f0f; border:1px solid #2a2a2a; padding:8px 18px; border-radius:25px; color:#ddd; font-size:14px;">⚡ JavaScript</div>
+<div class="skill" style="background:#0f0f0f; border:1px solid #2a2a2a; padding:8px 18px; border-radius:25px; color:#ddd; font-size:14px;">🐍 Python</div>
+<div class="skill" style="background:#0f0f0f; border:1px solid #2a2a2a; padding:8px 18px; border-radius:25px; color:#ddd; font-size:14px;">🗄️ MySQL</div>
+<div class="skill" style="background:#0f0f0f; border:1px solid #2a2a2a; padding:8px 18px; border-radius:25px; color:#ddd; font-size:14px;">☕ Java</div>
+<div class="skill" style="background:#0f0f0f; border:1px solid #2a2a2a; padding:8px 18px; border-radius:25px; color:#ddd; font-size:14px;">🎯 Django</div>
+<div class="skill" style="background:#0f0f0f; border:1px solid #2a2a2a; padding:8px 18px; border-radius:25px; color:#ddd; font-size:14px;">©️ C</div>
+<div class="skill" style="background:#0f0f0f; border:1px solid #2a2a2a; padding:8px 18px; border-radius:25px; color:#ddd; font-size:14px;">💻 C++</div>
+</div>
+</div>
+</section>
+
+<section id="projects">
+<h2 class="section-title">My Projects</h2>
+<div class="projects">
+<div class="card">
+<h3>✅ Todo Website</h3>
+<p>A clean task management website to add, delete and track daily tasks with database support.</p>
+<div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>MySQL</span></div>
+<div class="links"><a href="#">Live Demo</a><a href="#">GitHub</a></div>
+</div>
+<div class="card">
+<h3>🏋️ Gym Management System</h3>
+<p>Complete gym database and management website for handling members, trainers, fees, and plans.</p>
+<div class="tags"><span>Python</span><span>Django</span><span>MySQL</span><span>HTML</span></div>
+<div class="links"><a href="https://kunj.pythonanywhere.com/" target="_blank">Live Demo</a><a href="#">GitHub</a></div>
+</div>
+<div class="card">
+<h3>🏗️ BuildManage</h3>
+<p>Construction site management system to manage projects, materials, labour and expenses.</p>
+<div class="tags"><span>Full Stack</span><span>Python</span><span>MySQL</span></div>
+<div class="links"><a href="#">Live Demo</a><a href="#">GitHub</a></div>
+</div>
+</div>
+</section>
+
+<div class="contact" id="contact">
+<h2 class="section-title">Let's Connect</h2>
+<p style="color:#aaa;margin-bottom:25px">Have a project in mind? Let's talk!</p>
+<p style="margin-bottom:10px">📧 anshu.sharma.dev@email.com</p>
+<p style="margin-bottom:25px">🔗 linkedin.com/in/anshu-sharma</p>
+<a href="mailto:anshu.sharma.dev@email.com" class="btn">Send Email</a>
+</div>
+
+<footer>© 2026 Anshu Sharma. Built with ❤️ and code.</footer>
+</body>
+</html>
